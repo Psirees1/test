@@ -4,3 +4,4 @@ execution:
  hold-for : 3 min
  ramp-up :2 min
   scenario : choose flight
+   scenarios
