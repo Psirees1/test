@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Anvi's Closet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <a href="/"> <img class="header" src="/images/closetlogo.jpg" alt=""></a>
+        <a href="/">  <h2>Anvis Closet</h2></a>
+        <% if(!user){ %>
+        <a class="button" name="menu"   href="/user/login">Login</a>
+        <a class="button" name="menu"  href="/user/new">SignUp</a>
+        <% } else { %>
+        <a class="button" name="menu" href="/newapparal">Create an apparal </a>
+        <a class="button" name="menu"   href="/user/profile">Profile</a>
+        <a class="button" name="menu"  href="/user/logout">Logout</a>
+        <% } %>
+    </div>
+    
+    <hr class="solid">
+    <div class="header shadow">
+        <a class="button" href="/apparals">Apparals</a>
+    </div>
+    <% if(errorMessages.length > 0) {%>
+        <% errorMessages.forEach(message=>{%>
+            <div class='error'>
+                <%=message%>
+            </div>
+        <%});%>
+    <%}%>
+    
+    <% if(successMessages.length > 0) {%>
+        <% successMessages.forEach(message=>{%>
+            <div class='success'>
+                <%=message%>
+            </div>
+        <%});%>
+    <%}%>

@@ -1,0 +1,31 @@
+<%- include('../partials/header.ejs')%>
+
+    <div class="container">
+        <form method="POST" action="/apparals/<%=apparal._id%>?_method=PUT" id="simple-forms">
+            <div id="row">
+                <label>Category</label>
+                <input type="text" id="leagueName-input" name="Category" value="<%=apparal.Category%>" required>
+            </div>
+            <div>
+                <label>Name</label>
+                <input type="text" id="title-input" name="Name" value="<%=apparal.Name%>" required>
+            </div>
+            <div>
+                <label>ImageUrl</label>
+                <input type="text" id="title-input" name="imageUrl" value="<%=apparal.imageUrl%>" placeholder="enter Image Url" required>
+            </div>
+            <div>
+                <label>Details</label>
+                <textarea rows="10" cols="50" name="Details" required><%=apparal.Details%></textarea>
+            </div>
+            <div>
+                <label>Rating</label>
+                <input type="text" id="where-input" name="Rating" value="<%=apparal.Rating%>" required>
+            </div>
+            <input type="submit" id="button-margin" class="button-margin">
+            <br /><br /><br /><br /><br />
+        </form>
+
+    </div>
+
+    <%- include('../partials/footer.ejs')%>

@@ -1,0 +1,41 @@
+<%- include('../partials/header.ejs')%>
+
+    <div class="middle">
+        <h2>
+            <u>
+                <%=apparal.Name%>
+            </u>
+        </h2>
+        <div>
+            <img class="menu-item" src="<%=apparal.imageUrl%>"
+                alt="Image not available">
+        </div>
+        <div>
+            <p>Category - <%=apparal.Category%>
+            </p>
+            <p>
+                Name - <%=apparal.Name%>
+            </p>
+            <p>
+                Details - <%=apparal.Details%>
+            </p>
+            <p>
+                Rating - ★ <%=apparal.Rating%>
+            </p>
+            <p>
+                Owner - <%=apparal.Owner.firstName%> <%=apparal.Owner.lastName%>
+            </p>
+        </div>
+        <% if(user == apparal.Owner._id) { %>
+        <div class="float-middle">
+             <form class="form-middle">
+                <button type = 'submit' formaction='/apparals/<%=apparal._id%>/edit' formmethod = 'GET' class="button-margin">Edit</button>
+        
+                <button type = 'submit' formaction='/apparals/<%=apparal._id%>/?_method=DELETE' formmethod = 'POST' class="button-margin">Delete</button>
+            </form> 
+        </div>
+        <% } %>
+    </div>
+
+
+    <%- include('../partials/footer.ejs')%>
