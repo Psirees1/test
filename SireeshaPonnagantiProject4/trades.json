@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "638424d1cd9e3438c3f09401"
+  },
+  "Category": "MensFashion",
+  "Name": "footwear",
+  "Details": "hdvsjf jhdvcjsd hdvsdh. hgd vchdgs ",
+  "Rating": "3",
+  "imageUrl": "https://www.colehaan.com/on/demandware.static/-/Sites-itemmaster_colehaan/default/dw928e00bc/images/large/C27879_A.jpg",
+  "Owner": {
+    "$oid": "63841e44cd9e3438c3f093a4"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669604561586"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669604561586"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63853e308bb065e578a9e0f3"
+  },
+  "Category": "Womens Fashion",
+  "Name": "accessories",
+  "Details": "Black in color",
+  "Rating": "5",
+  "imageUrl": "https://michaelkors.scene7.com/is/image/MichaelKors/35T0GXPC1O-0001_1?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90",
+  "Owner": {
+    "$oid": "63853c2b8bb065e578a9e0e4"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669676592411"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669676647038"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "638541858bb065e578a9e108"
+  },
+  "Category": "kids n baby",
+  "Name": "Baby Boy",
+  "Details": "Blue in color",
+  "Rating": "3",
+  "imageUrl": "https://cdn-fsly.yottaa.net/578855e22bb0ac10350002d6/www.carters.com/v~4b.262/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw3a189001/productimages/1N963510.jpg?sw=800&sh=1000&sfrm=jpg&yocs=4E_4G_",
+  "Owner": {
+    "$oid": "63853cd18bb065e578a9e0ee"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669677445990"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669677445990"
+    }
+  },
+  "__v": 0
+}]

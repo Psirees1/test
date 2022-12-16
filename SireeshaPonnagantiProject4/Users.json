@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "63841e44cd9e3438c3f093a4"
+  },
+  "firstName": "Sireesha",
+  "lastName": "Ponnaganti",
+  "email": "psirees1@gmail.com",
+  "password": "$2b$10$qmqtYYgMP7h2NKZhOy08tuci4kTbdGrjcTQqjK/899Ur83buM6szi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63853c2b8bb065e578a9e0e4"
+  },
+  "firstName": "Sireesha",
+  "lastName": "Ponnaganti",
+  "email": "sponnaga@uncc.edu",
+  "password": "$2b$10$4NpDFa4m52y1tcq8NU92Qu0BKq4h7EIrUtgv1NQ.Udqb5lLG2LI96",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63853cd18bb065e578a9e0ee"
+  },
+  "firstName": "Tech",
+  "lastName": "AWS",
+  "email": "techaws.563@gmail.com",
+  "password": "$2b$10$sDHFGNJ84c3/qPvCE/lhbO1ucV1RqTSYidiC9/iyr.lF7ReN9u00u",
+  "__v": 0
+}]

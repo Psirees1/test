@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "6396d78f697958764b00f386"
+  },
+  "Category": "kids n baby",
+  "Name": "footwear",
+  "Details": "Twinkle Toes: Twi-Lites 2.0 - Unicorn Wings pink in color",
+  "Rating": "4",
+  "status": "Traded",
+  "imageUrl": "https://www.skechers.com/dw/image/v2/BDCN_PRD/on/demandware.static/-/Sites-skechers-master/default/dwad5bf11f/images/large/314401_MLT.gif?sw=1600",
+  "Owner": {
+    "$oid": "6396d615697958764b00f375"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670829967236"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670831051585"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6396da61697958764b00f3ad"
+  },
+  "Category": "MensFashion",
+  "Name": "clothing",
+  "Details": "Men Ink Painting Pattern Sweater",
+  "Rating": "5",
+  "status": "Traded",
+  "imageUrl": "https://img.ltwebstatic.com/images3_pi/2022/10/13/1665643716fbd8d85f7d02bc7606a0aa23c561eb1d_thumbnail_900x.webp",
+  "Owner": {
+    "$oid": "6396d9da697958764b00f3a4"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670830689103"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670831051588"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6396dd47697958764b00f401"
+  },
+  "Category": "MensFashion",
+  "Name": "footwear",
+  "Details": "Men&amp;#x27;s Wool Runners",
+  "Rating": "4",
+  "status": "In-Process Offer",
+  "imageUrl": "https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_853,b_rgb:f5f5f5/cms/z0Z7JaTiFmKncrgGOxJp7/24a0b02e2071298fe8da4628fcb7c375/Men_s_Wool_Runners_-_Natural_Grey__Light_Grey_Sole__-_imageAngle",
+  "Owner": {
+    "$oid": "6396d9da697958764b00f3a4"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670831431947"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670832704218"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6396e224697958764b00f471"
+  },
+  "Category": "kids n baby",
+  "Name": "clothing",
+  "Details": "Baby Girls Pullover Cute Cartoon Animals Print Sweatshirt &amp;amp; Pants Kids Clothes",
+  "Rating": "5",
+  "status": "In-Process Offer",
+  "imageUrl": "https://img.kwcdn.com/product/enhanced_images/25192cfe851d14dd864d64b64e366a23_enhanced.jpg?imageView2/2/w/800/q/70",
+  "Owner": {
+    "$oid": "6396d615697958764b00f375"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670832676103"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670832704214"
+    }
+  },
+  "__v": 0
+}]

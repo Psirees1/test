@@ -1,0 +1,39 @@
+<%- include('../partials/header.ejs')%>
+
+    <div class="menu-center">
+
+        <%if(apparals.length) {%>
+            
+            <%
+                console.log(apparals);
+                let categorySet = new Set();
+                apparals.forEach( apparal => {
+                    categorySet.add(apparal.Category);
+                    console.log(categorySet);
+                })
+                let categoryArray = Array.from(categorySet);
+                console.log(categoryArray);
+
+                console.log(categoryArray.length);
+                console.log(apparals.length);
+            %>
+            
+            <% for(var i = 0 ; i < categoryArray.length ; i++) { %>
+                <h2><%= categoryArray[i] %></h2>
+                <% for(var j = 0 ; j < apparals.length ; j++) { %>
+                    <% console.log( categoryArray[i] ) %>
+                    <% if(apparals[j].Category === categoryArray[i]) { %>
+                        <% console.log( "apparals[j].Category" ) %>
+                            <ui>
+                                <li><a title="apparalNavigation -> apparal" href="/apparals/<%=apparals[j].id%>"><%=apparals[j].Name%></a></li>
+                            </ui>
+                    <% } %>
+                <% } %>
+            <% } %> 
+        <%} else {%>
+            <p>Closet is empty. No apparals to display</p>
+        <%}%>
+
+    </div>
+
+    <%- include('../partials/footer.ejs')%>

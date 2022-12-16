@@ -1,0 +1,30 @@
+<%- include('../partials/header.ejs')%>
+    <div class="container">
+        <form action="/apparals" method="POST" id="simple-forms">
+            <div id="row">
+                <label>Category</label>
+                <input type="text" id="leagueName-input" name="Category" placeholder="enter WomensFashion/MensFashion/Kids n Baby"
+                    required>
+            </div>
+            <div>
+                <label>Name</label>
+                <input type="text" id="title-input" name="Name" placeholder="enter Clothing/Accessories/footwear/Jewelry" required>
+            </div>
+            <div>
+                <label>ImageUrl</label>
+                <input type="text" id="title-input" name="imageUrl" placeholder="enter Image Url" required>
+            </div>
+            <div>
+                <label>Details</label>
+                <textarea rows="10" cols="50" name="Details" placeholder='enter Size and specifications' required></textarea>
+            </div>
+            <div>
+                <label>Rating</label>
+                <input type="text" id="where-input" name="Rating" placeholder="Enter rating on the scale of 5 say 1,2,3,4,5" required>
+            </div>
+            <input type="submit" id="button-margin" class="button-margin success">
+            <br /><br /><br /><br /><br />
+        </form>
+
+    </div>
+    <%- include('../partials/footer.ejs')%>
