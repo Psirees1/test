@@ -1,0 +1,33 @@
+
+<%- include('../partials/header.ejs')%>
+<div class="profile-container">
+    <div class="center-container" style="padding: 20px;">
+        <div class="event-heading">
+            <h3 class="dis-in-bl"><%=user.firstName%>'s apparals</h3>
+        </div>
+        <% if(apparals.length){ %>
+        <table>
+            <tr>
+              <th>Apparal</th>
+              <th>Category</th>
+              <th>Action</th>
+            </tr>
+            <% apparals.forEach(apparal => { %>
+            <tr>
+                <td><%= apparal.Name %></td>
+                <td><%= apparal.Category %></td>
+                <td>
+                    <form style="float: left;">
+                        <button class="edit_button" type="submit" formmethod="GET" formaction="/apparals/<%= apparal._id %>/edit">Edit</button>
+                        <button class="delete_button" type="submit" formmethod="POST" formaction="/apparals/<%= apparal._id %>?_method=DELETE">Delete</button>
+                    </form>
+                </td>
+            </tr>
+            <% }); %>
+        </table>
+        <% } else { %>
+            <p style="margin: 20px auto;width: 95%;">There are no apparals to display.</p>
+        <% } %>
+    </div>
+</div>
+<%- include('../partials/footer.ejs')%>
